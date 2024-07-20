@@ -20,5 +20,6 @@ from firstapp.views import my_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('carros/', include('firstapp.urls'))
+    path('carros/', include('firstapp.urls')),
+    path('author/', include('firstapp.urls'))
 ]
